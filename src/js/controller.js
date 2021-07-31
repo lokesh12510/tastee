@@ -14,6 +14,8 @@ const recipeContainer = document.querySelector('.recipe');
 //   module.hot.accept();
 // }
 
+console.log(`welcome`);
+
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
